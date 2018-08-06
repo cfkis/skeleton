@@ -1,9 +1,21 @@
 # skeleton
-vue spa skeleton
 
-1. 下载或clone项目后，切换置项目根目录 npm install 安装依赖
+> ssr skeleton
 
-2. 运行 npm run buildSkeleton 生成骨架图内容（skeleton.json）
+## Build Setup
 
-3. 执行 node ./src/skeleton 将步骤2中的结果注入index.html
-(注：需要在模版文件index.html中加入占位符 <!--vue-ssr-outlet-->)
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+```
+
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
